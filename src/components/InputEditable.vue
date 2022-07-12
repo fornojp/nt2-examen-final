@@ -10,7 +10,7 @@
     /></span>
     <br />
     <br />
-    <p>Cantidad de palabras: {{ cantPalabras }}</p>
+    <p v-if="this.texto != ''">Cantidad de palabras: {{ cantPalabras }}</p>
   </section>
 </template>
 
